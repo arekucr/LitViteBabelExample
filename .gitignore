@@ -1,1 +1,92 @@
+# Node modules
 node_modules/
+dev-dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Build directories
+dist/
+build/
+out/
+
+# Vite cache
+.vite/
+.vite_cache/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Babel cache
+.babel_cache/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# MacOS files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Parcel-bundler cache (for projects using Parcel)
+.cache/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Yarn Integrity file
+.yarn-integrity
+
+# eslint cache
+.eslintcache
+
+# stylelint cache
+.stylelintcache
+
+# Prettier files
+*.prettierignore
+
+# local history for IDEs
+.localhistory/
+
+# Haste cache
+.haste/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build output
+.nuxt/
+
+# SvelteKit build output
+.svelte-kit/
+
+# TSC cache
+.tscache/
