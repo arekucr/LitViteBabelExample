@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "esnext",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"],
+      }
+    }
+  }
+  
