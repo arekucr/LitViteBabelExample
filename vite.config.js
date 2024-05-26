@@ -97,15 +97,6 @@ export default defineConfig(({ mode }) => {
       //   sourcemapBaseUrl: `http://build-redesign.thebdxlive.com/BHIContent/sourcemaps/`,
       // },
     },
-  },
-  server: {
-    host: 'dev.thebdxlive.com',
-    port: 1997,
-    https: {
-      pfx: fs.readFileSync('./bdxcert.pfx'),
-      passphrase: 'newhomesource',
-    },
-  },
-
+  }
 };
 });

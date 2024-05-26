@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "dev1": "vite build --mode s1",
     "dev2": "vite build --mode s2",
     "build3": "vite build --mode s3",
